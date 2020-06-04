@@ -3247,11 +3247,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: rgb(220, 220, 220);
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #e5f0e8;
 		}
 
 		.wrapper.style2 {
@@ -3496,6 +3496,13 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	.inner h2, .inner h3 {
+		color: white;
+	}
+
+	.inner p {
+		color: rgb(141, 139, 139);
+	}
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
