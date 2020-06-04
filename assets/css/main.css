@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: white;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #4e5ab7);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #4e5ab);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #4e5ab);
-				background-image: linear-gradient(to right, #5e42a6, #4e5ab);
+				background-image: -moz-linear-gradient(to right, blue, blue);
+				background-image: -webkit-linear-gradient(to right, blue, blue);
+				background-image: -ms-linear-gradient(to right, blue, blue);
+				background-image: linear-gradient(to right, blue, blue);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2363,7 +2363,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: red;
 		}
 
 		select:focus::-ms-value {
@@ -2451,7 +2451,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: red;
 			content: '\f00c';
 		}
 
@@ -3247,11 +3247,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: rgb(220, 220, 220);
+			background-color: rgb(4, 44, 25);
 		}
 
 		.wrapper.style1-alt {
-			background-color: #e5f0e8;
+			background-color: black;
 		}
 
 		.wrapper.style2 {
@@ -3259,7 +3259,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: red;
 		}
 
 		.wrapper.style3 {
@@ -3267,7 +3267,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: red;
 		}
 
 		.wrapper.fullscreen {
@@ -3377,7 +3377,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: red;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3498,6 +3498,13 @@ input, select, textarea {
 
 	.inner h2, .inner h3 {
 		color: white;
+	}
+
+	.inner-project h1 {
+		color: black;
+	}
+	.inner-project h2 {
+		color: rgb(43, 41, 41);
 	}
 
 	.inner p {
