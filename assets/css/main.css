@@ -198,10 +198,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, blue, blue);
-				background-image: -webkit-linear-gradient(to right, blue, blue);
-				background-image: -ms-linear-gradient(to right, blue, blue);
-				background-image: linear-gradient(to right, blue, blue);
+				background-image: -moz-linear-gradient(to right, green, green);
+				background-image: -webkit-linear-gradient(to right, green, green);
+				background-image: -ms-linear-gradient(to right, green, green);
+				background-image: linear-gradient(to right, green, green);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3804,7 +3804,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: #c6c5c5;
 			}
 
 			#sidebar nav a.active {
