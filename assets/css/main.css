@@ -3525,6 +3525,10 @@ input, select, textarea {
 
 		}
 
+		#footer .inner {
+			margin: none;
+			padding: 20px;
+		}
 	#footer > .inner a {
 		border-bottom-color: rgba(255, 255, 255, 0.15);
 	}
@@ -3535,7 +3539,8 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 255, 255, 0.555);
+		margin: 0;
 	}
 
 	#header + #wrapper + #footer > .inner {
