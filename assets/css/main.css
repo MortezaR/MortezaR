@@ -3072,11 +3072,11 @@ input, select, textarea {
 			}
 
 		.spotlights > section:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.05);
+			background-color: rgba(203, 203, 215, 0.42);
 		}
 
 		.spotlights > section:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.1);
+			background-color: rgba(197, 198, 215, 0.671);
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3249,6 +3249,8 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: rgb(44, 63, 54);
+			background-color: rgb(19, 21, 34);
+
 		}
 
 		.wrapper.style1-alt {
@@ -3505,11 +3507,11 @@ input, select, textarea {
 		color: black;
 	}
 	.inner-project h2 {
-		color: rgb(43, 41, 41);
+		color: rgb(19, 21, 34);
 	}
 
 	.inner p {
-		color: rgb(148, 147, 147);
+		color: rgb(73, 76, 103);
 	}
 /* Footer */
 
@@ -3789,13 +3791,18 @@ input, select, textarea {
 
 			#sidebar nav a:before {
 				background: rgb(38, 211, 29);
+				/* background-image: -moz-linear-gradient(right, black, darkgray, rgb(38, 211, 29));
+				background-image: -webkit-linear-gradient(right, black, darkgray, rgb(38, 211, 29));
+				background-image: -ms-linear-gradient(right, black, darkgray, rgb(38, 211, 29));
+				background-image: linear-gradient(right, black, darkgray, rgb(38, 211, 29)); */
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, GREEN, YELLOW);
-				background-image: -webkit-linear-gradient(to right, GREEN, YELLOW);
-				background-image: -ms-linear-gradient(to right, GREEN, YELLOW);
-				background-image: linear-gradient(to right, GREEN, YELLOW);
+				background-image: -moz-linear-gradient(left, black, darkgray, lightgray);
+				background-image: -webkit-linear-gradient(left, black, darkgray, lightgray);
+				background-image: -ms-linear-gradient(left, black, darkgray, lightgray);
+				background-image: linear-gradient(left, black, darkgray, lightgray);
+				/* background-color: black; */
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3906,6 +3913,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%; */
 		background-color: black;
+		background-color: rgb(19, 21, 34);
 	}
 
 		#intro h1 {
